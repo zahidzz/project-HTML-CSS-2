@@ -2,6 +2,33 @@
 
 }
 
+/*
+
+Вес селекторов: 
+!important                                                                                                                                                                                 
+style=""
+#id
+.class
+[attr=value]
+LI 
+\*           
+                                                                                                                                                                                                
+По скорости нахождения
+*
+#id
+.cls
+tag (div, span and e.t.c)
+> 
+
+По скорости применения
+#id 
+.cls
+> 
+tag (div, span and e.t.c)
+*
+
+*/
+
 .header-bottom h1 {
 font-family: 'Montserrat';
 font-style: normal;
@@ -19,4 +46,72 @@ color: #252B42;
 
 .header-bottom .auth {
     
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation ul li {
+    margin-right: 20px;
+}
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.navigation nav ul li a {
+    /* link */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+    text-decoration: none;
+}
+
+.join-us {
+    background: #96BB7C;
+    border-radius: 5px;
+    border: 0;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.login {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #96BB7C;
+    border: 0;
+    background: none;
 }
