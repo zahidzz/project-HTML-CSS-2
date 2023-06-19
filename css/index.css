@@ -1,3 +1,12 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
 .header-bottom p {
 
 }
@@ -42,6 +51,9 @@ letter-spacing: 0.2px;
 /* text-color */
 
 color: #252B42;
+
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 .header-bottom .auth {
@@ -53,6 +65,8 @@ color: #252B42;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .navigation ul {
@@ -114,4 +128,56 @@ color: #252B42;
     color: #96BB7C;
     border: 0;
     background: none;
+}
+.header-bottom h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+     letter-spacing: 0.2px;
+    
+     /* second-text-color */
+
+     color: #737373;
+
+     margin-bottom: 30px;
+}
+.learn-more {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* primary-color */
+
+color: #96BB7C;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+border: 0;
+background: none;
+}
+
+.Welcome1 {
+    border: 0;
+    background-color: none;
+    color:#96BB7C;
+}
+
+.header-bottom{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
 }
