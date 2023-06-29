@@ -353,20 +353,26 @@ border: 0;
 }
 .video{
     display: flex;
-    width: 1050px;
-    height: 817px;
-    padding: 160px 0px;
+    width: 1440px;
     justify-content: center;
     align-items: center;
-    margin-left: 195px;
-    margin-right: 195px;
-
-    background: var(--light-background-color, #FFF);
-
-    justify-content: space-between;
 
     }
-
+.video1{
+    display: flex;
+    width: 1050px;
+    padding: 160px 0px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+.video2{
+    display: flex;
+    width: 1045px;
+    height: 549px;
+    justify-content: space-between;
+    align-items: center;
+}
 .placeholder{
     width: 469px;
     height: 549px;
@@ -410,4 +416,137 @@ font-family: Montserrat;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0.2px;
+}
+
+.practice{
+    display: flex;
+    width: 1440px;
+    height: 952px;
+    padding: 160px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.adv{
+    display: flex;
+    width: 1050px;
+    padding: 160px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+    flex-shrink: 0;
+}
+.adv1{
+    display: flex;
+    width: 691px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.adv1 h6{
+    color: var(--primary-text-color, #96BB7C);
+
+    /* h6 */
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.adv1 h2{
+    color: var(--text-color, #252B42);
+
+    /* h2 */
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+.adv1 p{
+    color: var(--second-text-color, #737373);
+
+    /* paragraph */
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    }
+.carausel{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.courses{
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+}
+.courses1{
+    display: flex;
+    width: 1050px;
+    padding: 160px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+    flex-shrink: 0;
+}
+.watch{
+    display: flex;
+    width: 691px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.watch h6{
+    color: var(--primary-text-color, #96BB7C);
+
+    /* h6 */
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.watch h2{
+    color: var(--text-color, #252B42);
+
+    /* h2 */
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+.watch p{
+    color: var(--second-text-color, #737373);
+
+    /* paragraph */
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.testimonials{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.testi1{
+    display: flex;
+    padding: 25px 25px 0px 25px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+.testi2{
+    display: flex;
+    padding: 25px 25px 0px 25px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+.team{
+    
 }
